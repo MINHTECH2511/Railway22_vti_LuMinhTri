@@ -116,4 +116,3 @@ CREATE TABLE exam_questions
 						FOREIGN KEY (Question_id)REFERENCES Questions(Question_id),
 						FOREIGN KEY(Exam_id)REFERENCES Exams(Exam_id)
    );
-   
