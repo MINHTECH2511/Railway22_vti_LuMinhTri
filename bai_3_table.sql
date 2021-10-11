@@ -11,7 +11,8 @@ type_questions ,
 questions ,
 answers,
 exams,
-exam_question;
+exam_question
+;
   
 CREATE TABLE department 
  
