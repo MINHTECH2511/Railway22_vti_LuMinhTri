@@ -17,10 +17,10 @@ VALUES					(	1		,	N'DEV'	),
 
 -- add data Accounts
 INSERT INTO Accounts (Account_id , gender ,			 Email , 				Use_name , 		Full_name , 		department_id , Position_id , 	Create_Date)
-VALUES					(	1		,	1	,	N'minhtech0912@gmail.com'	,	'KN_1'		,	N'Lữ Minh Trí'	,	5		,		3		,	'2021-10-10'),
+VALUES					(	1		,	1	,	N'minhtech0912@gmail.com'	,	'KN_1'		,	N'Nguyễn Văn Trỗi'	,	5		,		3		,	'2021-10-10'),
 						(	2		,	1	,	N'Dangvanhai1990@gamil.com'	,	'DTV_1'		,	N'Đặng Văn Hải'	,	4		,		2		,	'2021-10-10'),
                         (	3		,	0	,	N'Nguyenvantroi1989@mail.com'	,	'HTT_1'		,	N'Nguyễn Văn Trỗi'	,	3		,		2		,	'2021-10-10'),
-                        (	4		,	0 	,	N'daihiepkiemkhach1@gmail.com'	,	'Hien_1'	,	N'Dương Quá'	,	2		,		3		,	'2021-10-10'),
+                        (	4		,	0 	,	N'daihiepkiemkhach1@gmail.com'	,	'Hien_1'	,	N'Dương Quo'	,	2		,		3		,	'2021-10-10'),
                         (	5		,	1	,	N'Tethiendaithanh@mgail.com',	'DAT09'		,	N'Tôn Ngộ Không'	,	1		,		1		,	'2021-10-10');
                         
 -- add data `Groups`

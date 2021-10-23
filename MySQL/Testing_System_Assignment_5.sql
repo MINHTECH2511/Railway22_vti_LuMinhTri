@@ -7,7 +7,7 @@ SELECT *
 FROM Accounts A 
 JOIN departments D
 ON A.department_id=D.department_id
-	WHERE D.department_name='Sale';
+	WHERE D.department_name='Sale';            
     
 
 
@@ -36,20 +36,22 @@ WHERE length(Q.Content)>15
 
 -- Question 4: Tạo view có chứa danh sách các phòng ban có nhiềU nhân viên nhất
 
-DROP VIEW EXISTS VIEW_4;
+3 VIEW_4;
 CREATE VIEW VIEW_4 AS
-SELECT *
-FROM departments
-JOIN departments D
-ON A.department_id=D.department_id
-GROUP BY A.department_id 
-ORDER BY count(A.department_id) DESC
-LIMIT 1;
+    SELECT 
+        *
+    FROM
+        departments
+            JOIN
+        departments D ON A.department_id = D.department_id
+    GROUP BY A.department_id
+    ORDER BY count(A.department_id) DESC
+    LIMIT 1;
 
 
 
 -- Question 5: Tạo view có chứa tất các các câu hỏi do user họ Nguyễn tạo
-DROP VIEW EXISTS VIEW_5;
+DROP VIEW IF EXISTS VIEW_5;
 CREATE VIEW VIEW_5 AS
 SELECT *
 FROM Accounts A
