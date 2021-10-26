@@ -25,7 +25,7 @@ CREATE TABLE Positions
     Position_name		ENUM ("DEV","TEST","Scrum Master","PM") DEFAULT "TEST"
 );
 
-CREATE TABLE Accounts         ````
+CREATE TABLE Accounts 
 (
 	Account_id								TINYINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     gender									BIT DEFAULT 1,

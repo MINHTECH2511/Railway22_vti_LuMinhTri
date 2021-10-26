@@ -8,15 +8,14 @@ VALUES				(	 N'la van hong'  , '0943449921'   , '66daihiepkiemkhach331@gmail.com
      
 INSERT INTO      car(maker    , 	model   ,  `year`  ,   color     ,note  )
 VALUES				('toyota'  , 'tmoder3'   , '2021-10-10'  ,  'pink'  ,  'used' ), 
-					('honda'   , 'waversx1'  ,'2021-10-10'  ,  'black'  , 'new'  ),
                     (	'nissan'  , 'visoi s '  , '2021-10-10'  ,  'pink'    ,'used' ),
-                    (	'honda'   , 'waversx3'  , '2021-10-10'  ,  'gray' , 'new' ),
-                    (	 'honda'   , 'waversx2'  , '2021-10-10'   ,  'red'   ,'new');
+                    (	'honda'   , 'waversx3'  , '2021-10-10'  ,  'gray' , 'new' );
+                 
 
  
 INSERT INTO `order`(  customer_id       ,car_id	        ,amount       , sale_price         ,  order_date      ,   delivery_date  ,  delivery_address  ,    `status`,note)                   
-VALUES				(	1               ,1               ,1        , '20210000'    , '2021-10-10'       ,'2022-10-10' ,            'agoda'  ,              "1"  ,    'agoda'  ),
-					(	2               ,2              , 2         , '20260000'    , '2021-10-10'     , '2022-10-10',             'agoda'  ,            "1"   ,'agoda'),
-                    (	3               ,3              , 3       , '20210000'   , '2021-10-10'     ,'2022-10-10' ,             'agoda'   ,             "1"      ,'agoda' ),
-                    (	4               ,4               ,4         , '20220000' , '2021-10-10'     ,'2022-10-10',              'agoda'   ,                 "1"    ,'agoda'),
-                    (	5               ,5               , 5        , '20210000'  , '2021-10-10'     ,'2022-10-10',              'agoda'   ,              "2" ,'agoda');     
+VALUES				(	1               ,1               ,5        , '20210000'    , '2020-10-10'       ,'2021-10-10' ,            'agoda'  ,              "1"  ,    'agoda'  ),
+					(	2               ,2              , 2         , '20260000'    , '2020-10-10'     , '2021-10-10',             'agoda'  ,            "1"   ,'agoda'),
+                    (	1               ,3              , 3       , '20210000'   , '2020-10-10'     ,'2021-10-10' ,             'agoda'   ,             "1"      ,'agoda' ),
+                    (	4               ,3             ,4         , '20220000' , '2020-10-10'     ,'2021-10-10',              'agoda'   ,                 "1"    ,'agoda'),
+                    (	5               ,2             , 5        , '20210000'  , '2020-10-10'     ,'2021-10-10',              'agoda'   ,              "2" ,'agoda');     
